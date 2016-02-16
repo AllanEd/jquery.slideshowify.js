@@ -207,8 +207,8 @@
 				$(img).hide();
 				_imgs.push({
 					src : $(img).attr('src'),
-					w   : $(img).width(),
-					h   : $(img).height()
+					w   : $(img).naturalWidth,
+					h   : $(img).naturalHeight
 				});
 			});
 		}
